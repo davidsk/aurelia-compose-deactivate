@@ -6,16 +6,6 @@ This project is bootstrapped by [aurelia/new](https://github.com/aurelia/new).
 
     npm start
 
-## Build the app in production mode
+## Open the browser console
 
-    npm run build
-
-
-## Unit Tests
-
-    npm run test
-
-Run unit tests in watch mode.
-
-    npm run test:watch
-
+Use the 'Switch Component' and 'Switch Model' buttons to toggle the component and model.  Both components have activate and deactivate hooks defined which write to the console but the console only displays messages from the activate hook.
