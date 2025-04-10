@@ -9,4 +9,12 @@ export class Component1{
     deactivate(){
         console.log(`Model '${this.model.name}' Deactivated`)    
     }
+
+    detached(){
+        console.log(`Model '${this.model.name}' Detached`)    
+    }
+
+    unbinding(){
+        console.log(`Model '${this.model.name}' Unbinding`)    
+    }
 }
